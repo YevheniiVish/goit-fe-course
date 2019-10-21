@@ -1,0 +1,142 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+body {
+  font-family: "Playfair Display", "Ubuntu", "Arial", serif;
+  color: #626262;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 24px;
+  width: 902px;
+  margin-left: 130px;
+  margin-right: 150px;
+  margin-bottom: 68px;
+}
+.header {
+  margin-bottom: 46px;
+
+}
+.site--nav {
+  padding: 74px, 0;
+ 
+}
+.main--context conteiner {
+  display: inline-block;
+    width: 902px;
+    margin: 0, auto;
+    padding: 0, 
+  }
+  .visually-hidden:not(:active),
+  input[type="checkbox"].visually-hidden,
+  input[type="radio"].visually-hidden {
+    position: absolute;
+
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap; 
+
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+.menu {
+  font-size: 14px;
+  list-style: none;
+  margin: 77px, 150px, 105px, 160px;
+  padding: 0;
+      }
+  .menu a:hover,
+  .menu a:focus {
+    color: blue;
+  }
+    
+.menu--item {
+  display: inline-block;
+}
+.menu--item a {
+  color: #626262;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 24px;
+  text-align: center;
+  vertical-align: middle;
+}
+.menu--item a {
+  display: inline-block;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 75px;
+}
+section {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 424px;
+  height: 490px;
+  text-align: justify;
+  padding-left: 58px;
+  margin-bottom: 136px;
+  }
+
+  figure {
+    display: inline;
+    margin: inherit;
+  }
+  
+img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+
+figcaption {
+  font-family: "Ubuntu";
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: justify;
+  margin-top: 30px;
+  margin-bottom: 24px;
+}
+h2 {
+  font-family: "Playfair Display", serif;
+  box-sizing: content-box;
+  text-align: justify;
+  font-size: 30px;
+  line-height: 36px;
+  white-space: normal;
+}
+p {
+  font-family: "Playfair Display", serif;
+  box-sizing: content-box;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: justify;
+}
+
+.footer {
+  display: block;
+  font-size: 60px;
+
+
+  
+}
+.btn-load-more {
+  display: inline-block;
+  font-family: "Playfair Display", serif;;
+  width: 162px;
+  height: 62px;
+  margin-left: 360px;
+  font-size: 20px;
+}
