@@ -76,15 +76,13 @@ input[type="radio"].visually-hidden {
   text-align: center;
   vertical-align: middle;
 }
-.menu--item a {
-  display: inline-block;
-}
+
 section {
   box-sizing: border-box;
   display: inline-block;
   width: 448px;
-  height: 490px;
   text-align: justify;
+  vertical-align: top;
   padding: 0 32px;
   margin-bottom: 136px;
 }
