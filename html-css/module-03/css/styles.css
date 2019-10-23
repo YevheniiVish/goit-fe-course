@@ -18,7 +18,7 @@ body {
   margin: 0 auto;
 }
 .site--nav {
-  padding: 74px, 0;
+  padding: 74px 0;
 }
 .main-container {
   width: 902px;
@@ -58,7 +58,7 @@ input[type="radio"].visually-hidden {
 }
 .menu a:hover,
 .menu a:focus {
-  color: blue;
+  color: #03a9f4;
 }
 
 .menu--item {
@@ -127,6 +127,7 @@ p {
   display: block;
   font-size: 60px;
   text-align: center;
+ 
 }
 .btn-load-more {
   display: inline-block;
@@ -134,4 +135,8 @@ p {
   width: 162px;
   height: 62px;
   font-size: 20px;
+  margin-top: 60px;
+  margin-bottom: 70px;
+  text-align: center;
+  vertical-align: middle;
 }
