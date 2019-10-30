@@ -41,6 +41,7 @@ body {
 .site--nav {
   display: block;
   text-align: center;
+  height: 80px;
 }
 .menu--nav {
   height: 20px;
@@ -78,30 +79,33 @@ main {
 .title {
   width: 1140px;
   height: 125px;
+  text-align: center;
+  margin-bottom: 92px;
 }
 h2 {
   font-family: "Roboto", Black;
   font-size: 48px;
   line-height: 32px;
   text-transform: uppercase;
-  display: block;
+  display: inline-block;
   text-align: center;
 }
 .title {
   display: block;
-  margin: 0;
-  padding: 90px auto;
+  margin: 50px auto;
+  padding: auto;
 }
 .line--title {
-  display: inline-block;
+  display: block;
   text-align: center;
   margin-left: 490px;
+  margin-bottom: 100px;
 }
 .cart {
   width: 255px;
   height: 322px;
   float: left;
-  margin: 0 15px;
+  margin: 14px 15px;
   background: #fff;
   cursor: pointer;
   box-shadow: 2px 2px 2px 2px hsla(0, 0%, 0%, 0.2);
@@ -168,23 +172,46 @@ h3 {
   display: block;
   text-align: center;
 }
+.hidden {
+  height: 10px;
+}
+
+.hidden::after {
+  content: "";
+  float: left;
+  background: #1abc9c;
+  width: 160px;
+  height: 9px;
+  margin-left: 475px;
+ }
 .line--news {
   display: inline-block;
   text-align: center;
   margin-left: 490px;
 }
+.blog--name {
+  height: 100px;
+}
 .blog--news {
   float: left;
   width: 350px;
-  height: 494px;
-  float: left;
   margin-top: 74px;
-  margin-left: 10px;
   background: #fff;
   cursor: pointer;
 }
+.blog--news:not(:nth-child(4n)) {
+  margin-right: 30px;
+}
+h4::after {
+  content: "";
+  float: left;
+  background: #1abc9c;
+  width: 140px;
+  height: 6px;
+  margin-top: 18px;
+  }
 h4 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans Semibold", sans-serif;
   font-size: 18px;
   line-height: 26px;
 }
@@ -192,10 +219,11 @@ p {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 26px;
+  padding-top: 30px;
 }
-a:hover,
+a:hover, 
 a:focus {
-  color: #03a9f4;
+  color: #4ec6ab;
 }
 
 button {
@@ -205,16 +233,14 @@ button {
   background: #4ec6ab;
 }
 
-.btn-load-more:hover,
-:focus {
+.btn-load-more:hover, 
+.btn-load-more:focus {
   display: inline-block;
   font-family: "Open Sans", serif;
   font-size: 16px;
   line-height: 26px;
-  margin-top: 22px;
-  margin-bottom: 70px;
-  text-align: center;
-  vertical-align: middle;
   background: #4ec6ab;
   color: #fff;
+  border: none;
+  outline: none;
 }
