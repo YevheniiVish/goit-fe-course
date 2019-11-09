@@ -183,7 +183,7 @@ h3 {
   width: 160px;
   height: 9px;
   margin-left: 475px;
- }
+}
 .line--news {
   display: inline-block;
   text-align: center;
@@ -209,7 +209,7 @@ h4::after {
   width: 140px;
   height: 6px;
   margin-top: 18px;
-  }
+}
 h4 {
   font-family: "Open Sans Semibold", sans-serif;
   font-size: 18px;
@@ -221,7 +221,7 @@ p {
   line-height: 26px;
   padding-top: 30px;
 }
-a:hover, 
+a:hover,
 a:focus {
   color: #4ec6ab;
 }
@@ -233,7 +233,7 @@ button {
   background: #4ec6ab;
 }
 
-.btn-load-more:hover, 
+.btn-load-more:hover,
 .btn-load-more:focus {
   display: inline-block;
   font-family: "Open Sans", serif;
