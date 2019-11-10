@@ -28,10 +28,9 @@ body {
 /* ----------header nav----------- */
 
 .header {
-  width: 1600px;
   height: 90px;
-  padding: 0 245px;
-  margin: 0 auto;
+  padding: 0;
+  margin: 0;
   background-color: #ffffff;
 }
 .logo {
@@ -59,6 +58,8 @@ body {
 .menu--nav {
   height: 20px;
   margin-top: 26px;
+  margin-left: auto;
+
 }
 
 .menu-site-item {
@@ -104,7 +105,6 @@ h1 {
 /* ------------slider--------- */
 
 .main-container {
-  width: 1600px;
   height: 1287px;
   margin: 0 auto;
   padding: 0;
@@ -230,10 +230,9 @@ h1 {
 
 .products-site {
   background-color: #e9f0fd;
-  width: 1600px;
+  margin: auto;
   height: 686px;
-  z-index: -1;
-}
+ }
 
 .products-site-box {
   width: 1110px;
@@ -580,10 +579,19 @@ h1 {
   );
 }
 
+.container-fluid--cards {
+  min-height: 676px;
+  background-color: #e9f0fd;
+  }
+
+  .container {
+  max-width: 1110px;
+  margin: auto;
+  }
+
 /* ------------Footer------------ */
 
 footer {
-  width: 1600px;
   height: 88px;
   margin: 0 auto;
   padding: 0;
@@ -591,7 +599,6 @@ footer {
 }
 .footer-title {
   position: relative;
-  width: 1600px;
   height: 88px;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
