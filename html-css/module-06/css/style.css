@@ -10,8 +10,10 @@ html {
 
 body {
     font-family: "Roboto", "Montserrat", sans-serif;
+    font-family: 'Kaushan Script', cursive;
     padding: 0;
     margin: 0;
+    
 }
 
 header {
@@ -57,7 +59,22 @@ margin: 0 auto;
     list-style: none;
     color: #95e1d3;
 }
-.nav-item {
-    color: #95e1d3;
+
+.titles_first {
+font-family: "Kaushan Script", cursive;
+font-weight: 500;
+color: #333333;
+font-style: italic;
+text-align: center;
+margin-top: 130px;
 }
 
+h1 {
+font-family: "Montserrat",  sans-serif;
+font-weight: bold;
+text-transform: uppercase;
+color: #333333;
+text-align: center;
+margin-top: 25px;
+}
+  
