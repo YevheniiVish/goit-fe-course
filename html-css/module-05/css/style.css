@@ -21,18 +21,21 @@ body {
   font-family: "Open Sans", "Roboto", "Arial", sans-serif;
   font-size: 14px;
   line-height: 26px;
-  padding: 1rem;
-  margin: auto;
-  background: #282828;
-}
+  margin: 0 auto;
+  }
 /* ----------header nav----------- */
 
 .header {
-  height: 90px;
-  padding: 0;
-  margin: 0;
   background-color: #ffffff;
+   margin: 0 auto;
+
 }
+
+.container-header {
+  max-width: 1110px;
+  margin:0 auto;
+}
+
 .logo {
   font-size: 30px;
   line-height: 32px;
@@ -582,17 +585,17 @@ h1 {
 .container-fluid--cards {
   min-height: 676px;
   background-color: #e9f0fd;
+  
   }
 
   .container {
   max-width: 1110px;
-  margin: auto;
+  margin:0 auto;
   }
 
 /* ------------Footer------------ */
 
 footer {
-  height: 88px;
   margin: 0 auto;
   padding: 0;
   background-color: #323232;
@@ -607,12 +610,14 @@ footer {
 
 .footer-item {
   position: absolute;
-  color: white;
-  margin: 0;
-  padding: 0;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, 50%);
+    width: 1110px;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 50%);
 }
 
 .footer-span {
