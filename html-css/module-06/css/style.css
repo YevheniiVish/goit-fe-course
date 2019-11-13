@@ -1,80 +1,182 @@
 html {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
-  *,
+*,
 *::before,
 *::after {
   box-sizing: inherit;
 }
 
 body {
-    font-family: "Roboto", "Montserrat", sans-serif;
-    font-family: 'Kaushan Script', cursive;
-    padding: 0;
-    margin: 0;
-    
-}
-
-header {
-    height: 50px;
+  font-family: "Roboto", "Montserrat", sans-serif;
+  font-family: "Kaushan Script", cursive;
+  padding: 0;
+  margin: 0;
 }
 
 .container {
-width: 1201px;
-margin: 0 auto;
+  width: 1201px;
+  margin: 0 auto;
 }
 
 .logo {
-    margin-top: 28px;
-   
+  margin-top: 28px;
 }
 
 .page-nav {
-    display: flex;
-    justify-content: space-between;
-    width: 1201px;
-    min-height: 50px;
-    align-items: baseline;
-
-
+  display: flex;
+  justify-content: space-between;
+  width: 1201px;
+  min-height: 50px;
+  align-items: baseline;
 }
 
 .site-nav {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    width: 491px;
-    padding: 0;
-    margin: 0;
-    font-size: 14px;
-    font-family: "Montserrat", sans-serif;
-    text-transform: uppercase;
-    list-style: none;
-    
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 491px;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  list-style: none;
 }
 
 .site-nav a {
-    text-decoration: none;
-    list-style: none;
-    color: #95e1d3;
+  text-decoration: none;
+  list-style: none;
+  color: #95e1d3;
 }
 
 .titles_first {
-font-family: "Kaushan Script", cursive;
-font-weight: 500;
-color: #333333;
-font-style: italic;
-text-align: center;
-margin-top: 130px;
+  font-family: "Kaushan Script", cursive;
+  font-weight: 500;
+  color: #333333;
+  font-style: italic;
+  text-align: center;
+  margin-top: 130px;
 }
 
 h1 {
-font-family: "Montserrat",  sans-serif;
-font-weight: bold;
-text-transform: uppercase;
-color: #333333;
-text-align: center;
-margin-top: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #333333;
+  text-align: center;
+  margin-top: 25px;
 }
+
+.titles::after {
+  content: "";
+  background-image: url(/img/line-icon.png);
+  color: rgb(243, 129, 129);
+  width: 60px;
+  height: 3px;
+  display: inline-block;
+  margin-left: calc((1201px / 2) - 30px / 2);
+}
+
+.service-items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1201px;
+  margin: 0;
+  padding: 0;
+
+}
+
+.service-item {
+  flex-basis: 382px;
+  flex-grow: 1;
+  height: 160px;
+  text-align: left;
+  display: inline-block;
+  padding-left: 60px;
+  position: relative;
+  left: 0;
+  top: 15px;
+
+}
+
+.photo::before,
+.web::before,
+.creat::before,
+.seo::before,
+.css_html::before,
+.digital::before {
+  content: "";
+  width: 32px;
+  height: 31px;
+  display: inline-block;
+  position: absolute;
+  left: 0px;
+  top: 10px;
+}
+
+.photo::before {
+background-image: url(/img/ALARM-icon.png);
+}
+
+.web::before {
+  background-image: url(/img/LINE_GRAPH-icon.png);
+
+}
+
+.creat::before {
+  background-image: url(/img/COMPUTER\ _\ OK-icon.png)
+
+  }
+
+  .seo::before {
+   background-image: url(/img/BOOK_2-icon.png);
   
+  }
+
+.css_html::before {
+  background-image: url(/img/HOME-icon.png);
+
+}
+
+.digital::before {
+  background-image: url(/img/COMPUTER\ _\ OK-icon.png);
+
+}
+
+.service-item-name {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #333333;
+
+}
+
+.service-item-description {
+  font-family: "Roboto", sans-serif;
+}
+
+/* ------card service maket--------- */
+/* .Lorem_dolor_sit_amet__consectetur_adipiscing_el {
+    font-size: 15px;
+    font-family: "Roboto";
+    color: rgb(153, 153, 153);
+    line-height: 1.6;
+    text-align: left;
+    width: 225px;
+    height: 39px;
+    
+  }
+  .Css_Html {
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: left;
+    
+   */
