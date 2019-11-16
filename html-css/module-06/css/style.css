@@ -11,10 +11,10 @@ html {
 body {
   font-family: "Roboto", "Montserrat", sans-serif;
   font-family: "Kaushan Script", cursive;
+  font-size: 15px;
   padding: 0;
   margin: 0;
 }
-
 .container {
   width: 1201px;
   margin: 0 auto;
@@ -63,10 +63,16 @@ body {
 h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
+  font-size: 30px;
   text-transform: uppercase;
   color: #333333;
   text-align: center;
   margin-top: 25px;
+}
+.nav-item:hover {
+  color: #f38181;
+  padding-bottom: 10px;
+  border-bottom: 2px solid currentColor;
 }
 
 .titles::after {
@@ -87,7 +93,6 @@ h1 {
   width: 1201px;
   margin: 0;
   padding: 0;
-
 }
 
 .service-item {
@@ -100,7 +105,6 @@ h1 {
   position: relative;
   left: 0;
   top: 15px;
-
 }
 
 .photo::before,
@@ -119,32 +123,27 @@ h1 {
 }
 
 .photo::before {
-background-image: url(/img/ALARM-icon.png);
+  background-image: url(/img/ALARM-icon.png);
 }
 
 .web::before {
   background-image: url(/img/LINE_GRAPH-icon.png);
-
 }
 
 .creat::before {
-  background-image: url(/img/COMPUTER\ _\ OK-icon.png)
+  background-image: url(/img/COMPUTER\_\OK-icon.png);
+}
 
-  }
-
-  .seo::before {
-   background-image: url(/img/BOOK_2-icon.png);
-  
-  }
+.seo::before {
+  background-image: url(/img/BOOK_2-icon.png);
+}
 
 .css_html::before {
   background-image: url(/img/HOME-icon.png);
-
 }
 
 .digital::before {
-  background-image: url(/img/COMPUTER\ _\ OK-icon.png);
-
+  background-image: url(/img/IMAGE-icon.png);
 }
 
 .service-item-name {
@@ -153,30 +152,237 @@ background-image: url(/img/ALARM-icon.png);
   font-weight: 500;
   text-transform: uppercase;
   color: #333333;
-
 }
 
 .service-item-description {
   font-family: "Roboto", sans-serif;
 }
 
-/* ------card service maket--------- */
-/* .Lorem_dolor_sit_amet__consectetur_adipiscing_el {
-    font-size: 15px;
-    font-family: "Roboto";
-    color: rgb(153, 153, 153);
-    line-height: 1.6;
-    text-align: left;
-    width: 225px;
-    height: 39px;
-    
-  }
-  .Css_Html {
-    font-size: 14px;
-    font-family: "Montserrat";
-    color: rgb(51, 51, 51);
-    text-transform: uppercase;
-    line-height: 1.2;
-    text-align: left;
-    
-   */
+.titles_second {
+  font-family: "Kaushan Script", cursive;
+  font-weight: 500;
+  color: #333333;
+  font-style: italic;
+  text-align: center;
+  margin-top: 130px;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #333333;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.team-description {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 380px;
+  height: 470px;
+  background-color: rgb(149, 225, 211);
+  z-index: 10;
+}
+
+.card-top {
+  position: absolute;
+    background-image: linear-gradient(
+    0deg,
+    #fce38a 0%,
+    #f38181 100%
+  );
+  width: 380px;
+  height: 470px;
+  transition: transform 0.3s linear;
+  cursor: pointer;
+  opacity: 0;
+  z-index: 30;
+}
+
+.card:hover .card-top {
+  transform: translateX(-12px) translateY(-12px);
+  opacity: 0.8;
+}
+
+.card:hover .btn-icon {
+  opacity: 1;
+  z-index: 40;
+}
+
+.img {
+  position: absolute;
+  width: 380px;
+  height: 470px;
+  z-index: 20;
+  transition: transform 0.2s linear;
+}
+
+.card:hover .img {
+  transform: translateX(-12px) translateY(-12px);
+}
+
+.overlay-btn {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  z-index: 40;
+}
+
+.btn-icon {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2px;
+    background-color: #fce38a;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s linear;
+}
+
+.card:hover .overlay-btn {
+  position: absolute;
+  opacity: 1;
+  z-index: 60;
+}
+
+.btn-icon:hover {
+  background-color: #95e1d3;
+  transition: background-color 0.3s linear;
+}
+
+.container-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-text {
+  text-align: center;
+}
+
+.card-name {
+  margin: 0;
+  padding: 26px 0 10px 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.btn-facebook::before {
+  content: "";
+  background-image: url(/img/facebook.png);
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 13px;
+  height: 26px;
+}
+
+.btn-twitter::before {
+  content: "";
+  background-image: url(/img/twitter.png);
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 26px;
+  height: 22px;
+}
+
+.btn-pinterest::before {
+  content: "";
+  background-image: url(/img/pinterest.png);
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 21px;
+  height: 26px;
+}
+
+.btn-instagram::before {
+  content: "";
+  background-image: url(/img/instagram.png);
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 26px;
+  height: 26px;
+}
+
+.btn-icon:hover {
+  opacity: 1;
+}
+.card-img {
+  position: absolute;
+  width: 380px;
+  height: 470px;
+}
+
+.wrapper-text-card {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer {
+  margin: 0;
+  padding: 0;
+}
+.footer-text-form {
+  min-height: 62px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.footer-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+
+}
+
+.form-cont {
+    min-width: 380px;
+    min-height: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.span-text {
+  color:#f6a1a1
+}
+
+.btn-form {
+  display: inline-block; 
+  width: 150px;
+  height: 40px;
+  color: white;
+  background: #95e1d3;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+}
+.input-email {
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  width: 230px;
+  height: 40px;
+  font-size: 15px;
+}
