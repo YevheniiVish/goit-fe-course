@@ -1,0 +1,89 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    font-family: "Roboto", "Montserrat", sans-serif;
+    font-family: "Kaushan Script", cursive;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  header {
+      margin: 0;
+      padding: 0;
+  }
+
+  .container {
+    width: 942px;
+    margin: 0 auto;
+  }
+
+  h1 {
+      font-size: 26px;
+      line-height: 41px;
+  }
+
+  .site-nav {
+      display: flex;
+      justify-content: space-between;
+      min-height: 76px;
+      align-items: baseline;
+  }
+
+  .nav-menu {
+      display: flex;
+      flex-basis: 485px;
+      justify-content: space-around;
+      align-items: baseline;
+      text-transform: uppercase;
+      list-style: none;
+      }
+
+  .nav-menu a {
+    text-decoration: none;
+  
+  }
+
+  /* ------------main------------- */
+
+  main {
+      margin: 0;
+      padding: 0;
+      }
+
+      .service-item {
+          width: 290px;
+          height: 224px;
+      }
+
+      h2 {
+          text-align: center;
+      }
+
+      .services-title-info {
+          text-align: center;
+      }
+
+      .services {
+          display: flex;
+          justify-content: space-between;
+      }
+
+/* .Background {
+    background-color: rgb(34, 34, 34);
+    position: absolute;
+    left: -2px;
+    top: 642px;
+    width: 1402px;
+    height: 677px;
+    z-index: 3;
+  } */
+  
