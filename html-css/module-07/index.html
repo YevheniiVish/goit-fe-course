@@ -68,52 +68,53 @@
           </li>
         </ul>
       </section>
-      </main>
-<footer>
+    </main>
+    <footer>
       <section class="contakt-site container">
         <h2 class="contakt">contakt us</h2>
         <p class="contakt-text">Proin iaculis purus consequat sem cure.</p>
-        <form action="#">
-          <ul>
-            <li>
+        <form class="form" action="javascript:void(0);" method="get">
+          <ul class="form-data">
+            <li class="form-data-item">
               <input
-                type="email"
+                type="text"
                 placeholder="Your name *"
                 required=""
-                name="name"
-                class="input-email"
+                name="name-user"
+                class="name-user"
               />
             </li>
-            <li>
+            <li class="form-data-item">
               <input
                 type="email"
                 placeholder="Your E-mail *"
                 required=""
-                name="email"
+                name="email-user"
                 class="input-email"
               />
             </li>
-            <li>
+            <li class="form-data-item">
               <input
-                type="email"
+                type="text"
                 placeholder="Subject"
-                required=""
                 name="subject"
-                class="input-email"
+                class="input-subject"
               />
             </li>
             <li>
-              <input
-                type="email"
+              <textarea
                 placeholder="Your message *"
                 required=""
                 name="message"
-                class="input-email"
-              />
+                class="textarea-message"
+              ></textarea>
             </li>
           </ul>
-          <button type="submit">send message</button>
+          <button type="submit" aria-placeholder="Your message">
+            send message
+          </button>
         </form>
+        <img class="map-bg" src="/img/Map_image.png" alt="" />
       </section>
     </footer>
   </body>
