@@ -15,9 +15,9 @@ html {
   font-style: normal;
   font-weight: 400;
   src: local("Montserrat Regular"), local("Montserrat-Regular"),
-    url("/fonts/montserrat-v14-latin-regular.woff2") format("woff2"),
+    url("../fonts/montserrat-v14-latin-regular.woff2") format("woff2"),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("/fonts/montserrat-v14-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+      url("../fonts/montserrat-v14-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* montserrat-700 - latin */
@@ -26,9 +26,9 @@ html {
   font-style: normal;
   font-weight: 700;
   src: local("Montserrat Bold"), local("Montserrat-Bold"),
-    url("/fonts/montserrat-v14-latin-700.woff2") format("woff2"),
+    url("../fonts/montserrat-v14-latin-700.woff2") format("woff2"),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("/fonts/montserrat-v14-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+      url("../fonts/montserrat-v14-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* montserrat-800 - latin */
 @font-face {
@@ -36,9 +36,9 @@ html {
   font-style: normal;
   font-weight: 800;
   src: local("Montserrat ExtraBold"), local("Montserrat-ExtraBold"),
-    url("/fonts/montserrat-v14-latin-800.woff2") format("woff2"),
+    url("../fonts/montserrat-v14-latin-800.woff2") format("woff2"),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("/fonts/montserrat-v14-latin-800.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+      url("../fonts/montserrat-v14-latin-800.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* roboto-slab-regular - latin */
@@ -47,9 +47,9 @@ html {
   font-style: normal;
   font-weight: 400;
   src: local(""),
-    url("/fonts/roboto-slab-v10-latin-regular.woff2") format("woff2"),
+    url("../fonts/roboto-slab-v10-latin-regular.woff2") format("woff2"),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("/fonts/roboto-slab-v10-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+      url("../fonts/roboto-slab-v10-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* archivo-italic - latin */
@@ -58,9 +58,9 @@ html {
   font-style: italic;
   font-weight: 400;
   src: local("Archivo Italic"), local("Archivo-Italic"),
-    url("/fonts/archivo-v6-latin-italic.woff2") format("woff2"),
+    url("../fonts/archivo-v6-latin-italic.woff2") format("woff2"),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("/fonts/archivo-v6-latin-italic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+      url("../fonts/archivo-v6-latin-italic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 body {
@@ -106,9 +106,9 @@ h1 {
 }
 
 .nav-menu a {
-  color: #4e4e4e;
+  color: #222;
   font-size: 14px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   line-height: 41px;
   text-align: center;
   text-decoration: none;
@@ -139,7 +139,7 @@ main {
 h2 {
   text-align: center;
   text-transform: uppercase;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-size: 40px;
   margin-bottom: 0;
 }
@@ -149,7 +149,7 @@ h2 {
 }
 
 .main-text {
-  color: #222222;
+  color: #222;
   line-height: 75px;
 }
 
@@ -160,7 +160,7 @@ h2 {
 .services-title-info,
 .contakt-text {
   text-align: center;
-  color: #777777;
+  color: #777;
   font-family: "Archivo";
   font-style: italic;
   font-weight: 400;
@@ -191,18 +191,31 @@ h2 {
 }
 
 .service-text {
-  font-family: "Roboto Slab";
+  font-family: "Roboto Slab", sans-serif;
   font-style: normal;
   text-align: center;
   font-size: 14px;
   line-height: 18px;
-  color: #777777;
+  color: #777;
 }
 
 /* ---------------footer------------ */
+footer::after {
+  content: "";
+  display: inline-block;
+  height: 4px;
+  width: 1400px;
+  background: white;
+  align-items: center;
+  text-align: center;
+  /* margin: 0 auto; */
+  margin-bottom: 0;
+  margin-left: calc(50% - (1400px / 2));
+}
 
 .contakt-site {
   padding-top: 110px;
+  padding-bottom: 112px;
 }
 
 .contakt {
@@ -220,17 +233,36 @@ footer {
 }
 
 form {
-  position: absolute;
+  position: relative;
   z-index: 2;
 }
 
-.map-bg {
-  position: relative;
+.Background {
+  background-color: rgb(34, 34, 34);
+  position: absolute;
+  left: 0px;
+  top: 639px;
+  width: 1402px;
+  height: 677px;
+  z-index: 3;
+}
+
+.form::before {
+  background-image: url(/img/Map_image.png);
+  content: "";
+  display: block;
+  width: 614px;
+  height: 537px;
+  position: absolute;
   left: 50%;
   right: 0;
   transform: translateY(-25%);
 }
 
+.form {
+  display: block;
+  position: relative;
+}
 .contakt-site {
   margin: 0 auto;
 }
@@ -240,7 +272,7 @@ form {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-size: 14px;
   line-height: 26px;
@@ -255,7 +287,7 @@ form {
 
 .form-data-item {
   margin-bottom: 28px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
 
@@ -270,7 +302,7 @@ input {
 }
 
 input::placeholder {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-size: 14px;
   line-height: 26px;
@@ -279,13 +311,13 @@ input::placeholder {
 }
 
 textarea::placeholder {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-size: 14px;
   line-height: 26px;
   text-transform: uppercase;
-  font-weight: 700;
   padding-left: 0px;
+  font-weight: 700;
   padding-top: 0px;
 }
 
@@ -320,7 +352,7 @@ button {
   border: none;
   outline: none;
   text-transform: uppercase;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 600;
   border-radius: 4px;
@@ -362,6 +394,6 @@ button {
 }
 
 .form button:hover,
-.form button:hover {
+.form button:focus {
   background-color: #e0b826;
 }
