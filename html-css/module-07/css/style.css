@@ -254,6 +254,7 @@ form {
   width: 614px;
   height: 537px;
   position: absolute;
+  z-index: -1;
   left: 50%;
   right: 0;
   transform: translateY(-25%);
