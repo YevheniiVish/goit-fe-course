@@ -1,0 +1,28 @@
+@media screen and (min-width: 320px) and (max-width: 747px) {
+    .container {
+      margin: 0 auto;
+      min-width: 320px;
+    }
+  }
+
+  @media screen and (min-width: 748px) and (max-width: 941px) {
+     .header-site {
+         margin: 0 auto ;
+         } 
+
+         .wrapper-img {
+          background: #1a1915;
+         background-image: url(/img/bg-tablet.png);
+         display: block;
+         width: 100%;
+         height: auto;
+         background-repeat: no-repeat;
+         background-size: cover;
+         }
+
+         .nav-logo {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+         }
+    }
