@@ -240,21 +240,21 @@ figure {
 }
 
 .bradley-icon::after {
-content: "";
-display: block;
-min-width: 41px;
-min-height: 41px;
-border-radius: 50%;
-border: 4px solid white;
-background-color: #ff4e50;
-background-image: url(/img/icon-1.png);
-background-position-x: center;
-background-position-y: center;
-background-repeat: no-repeat;
-display: inline-block;
-position: absolute;
-bottom: 0;
-left: 70%;
+  content: "";
+  display: block;
+  min-width: 41px;
+  min-height: 41px;
+  border-radius: 50%;
+  border: 4px solid white;
+  background-color: #ff4e50;
+  background-image: url(/img/icon-1.png);
+  background-position-x: center;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  left: 70%;
 }
 
 .bradley-icon {
@@ -262,21 +262,21 @@ left: 70%;
 }
 
 .lucas-icon::after {
-content: "";
-display: block;
-min-width: 41px;
-min-height: 41px;
-border-radius: 50%;
-border: 4px solid white;
-background-color: #ffa507;
-background-image: url(/img/icon-2.png);
-background-position-x: center;
-background-position-y: center;
-background-repeat: no-repeat;
-display: inline-block;
-position: absolute;
-bottom: 0;
-left: 70%;
+  content: "";
+  display: block;
+  min-width: 41px;
+  min-height: 41px;
+  border-radius: 50%;
+  border: 4px solid white;
+  background-color: #ffa507;
+  background-image: url(/img/icon-2.png);
+  background-position-x: center;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  left: 70%;
 }
 
 .lucas-icon {
@@ -285,20 +285,20 @@ left: 70%;
 
 .heather-icon::after {
   content: "";
-display: block;
-min-width: 41px;
-min-height: 41px;
-border-radius: 50%;
-border: 4px solid white;
-background-color: #1cd7ad;
-background-image: url(/img/icon-3.png);
-background-position-x: center;
-background-position-y: center;
-background-repeat: no-repeat;
-display: inline-block;
-position: absolute;
-bottom: 0;
-left: 70%;
+  display: block;
+  min-width: 41px;
+  min-height: 41px;
+  border-radius: 50%;
+  border: 4px solid white;
+  background-color: #1cd7ad;
+  background-image: url(/img/icon-3.png);
+  background-position-x: center;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  left: 70%;
 }
 
 .heather-icon {
@@ -307,20 +307,20 @@ left: 70%;
 
 .hunter-icon::after {
   content: "";
-display: block;
-min-width: 41px;
-min-height: 41px;
-border-radius: 50%;
-border: 4px solid white;
-background-color: #4e73db;
-background-image: url(/img/icon-4.png);
-background-position-x: center;
-background-position-y: center;
-background-repeat: no-repeat;
-display: inline-block;
-position: absolute;
-bottom: 0;
-left: 70%;
+  display: block;
+  min-width: 41px;
+  min-height: 41px;
+  border-radius: 50%;
+  border: 4px solid white;
+  background-color: #4e73db;
+  background-image: url(/img/icon-4.png);
+  background-position-x: center;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  left: 70%;
 }
 
 .hunter-icon {
@@ -346,7 +346,7 @@ figcaption {
 figure {
   margin-top: 28px;
   margin-bottom: 0;
-  }
+}
 
 .text-item {
   font-family: "Roboto", sans-serif;
@@ -354,7 +354,7 @@ figure {
   font-size: 14px;
   line-height: 17px;
   color: #666;
-  text-align: center;  
+  text-align: center;
 }
 
 .btn-main {
