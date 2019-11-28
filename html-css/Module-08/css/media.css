@@ -87,13 +87,13 @@
 @media screen and (min-width: 942px) {
   .header-site {
     margin: 0 auto;
-    min-width: 942px;
+    min-width: 919px;
     min-height: 700px;
   }
 
   .container {
     margin: 0 auto;
-    min-width: 942px;
+    min-width: 919px;
   }
 
   .header-nav {
