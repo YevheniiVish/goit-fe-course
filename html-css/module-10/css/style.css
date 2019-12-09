@@ -1,0 +1,143 @@
+html {
+  box-sizing: border-box;
+  padding: 1px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.container {
+  width: 1201px;
+  margin: 0 auto;
+}
+
+.wrapper-img {
+  background: #1a1915;
+  background-image: -webkit-linear-gradient(
+      90deg,
+      rgba(252, 227, 138, 0.8) 0%,
+      rgba(243, 129, 129, 0.8) 100%
+    ),
+    url(/img/eagle.png);
+  display: block;
+  width: 100%;
+  min-height: 1000px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.page-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 200px;
+}
+
+.link-icon--logo {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 86px;
+  height: 23px;
+  background-image: url(/svg/svg-logo.svg);
+}
+
+.link-svg {
+  width: 18px;
+  height: 15px;
+  fill: #ffff;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.title-text {
+  font-family: "Kaushan Script", cursive;
+  margin: 0;
+}
+
+.title-text--creative {
+  font-size: 72px;
+  line-height: 86px;
+  color: #ffff;
+  margin-bottom: 66px;
+}
+
+.title-name {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.title-name--mogo {
+  font-size: 150px;
+  line-height: 140px;
+  color: #ffff;
+  margin-bottom: 122px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 52%;
+  height: auto;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+}
+
+.link {
+  display: block;
+  text-decoration: none;
+}
+
+.link-nav--item {
+  color: #ffff;
+}
+
+.link-nav--item:hover,
+.link-nav--item:focus {
+  color: #fce38a;
+  border-bottom: 2px solid currentColor;
+}
+
+.btn-header {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.btn-header--item {
+  width: 164px;
+  height: 44px;
+  color: #ffff;
+  border-color: #ffff;
+  background-color: rgba(0, 0, 0, 0);
+  text-transform: uppercase;
+  border-style: solid;
+  border-width: 3px;
+}
+
+
