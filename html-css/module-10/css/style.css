@@ -140,4 +140,34 @@ html {
   border-width: 3px;
 }
 
+/* ---------main-------- */
+.services {
+  padding-top: 54px;
+}
 
+.title-icon {
+  background-image: url(/svg/line.svg);
+  width: 60px;
+  height: 3px;
+}
+/* .title-serices::after {
+  content: "";
+  background-image: url(/svg/line.svg);
+  color: rgb(243, 129, 129);
+  width: 60px;
+  height: 3px;
+  display: inline-block;
+  margin-left: calc((1201px / 2) - 30px / 2);
+} */
+
+.title-text--section {
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.title-name--section {
+  font-size: 30px;
+  line-height: 36px;
+  margin-top: 22px;
+  margin-bottom: 38px;
+}
