@@ -49,7 +49,7 @@ html {
 .link-svg {
   width: 18px;
   height: 15px;
-  fill: #ffff;
+  fill:#ffff;
 }
 
 .title {
@@ -171,3 +171,20 @@ html {
   margin-top: 22px;
   margin-bottom: 38px;
 }
+
+.list-services {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+  }
+
+  .list-item--service {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+
+  }
+  
+  .list-item--service .service-item-description:nth-child(3) {
+    grid-column: 2 / 3;
+
+  }

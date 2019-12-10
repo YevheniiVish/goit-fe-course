@@ -42,3 +42,37 @@ btn-header
 
 btn-header--item
 
+services
+
+title-text--section
+
+title-name--section
+
+title-icon
+
+list-service
+
+list-item--service
+
+list-item--photo
+
+list-item--web
+
+list-item--creat
+
+list-item--seo
+
+list-item--css_html
+
+list-item--digital
+
+text-name--item
+
+
+
+
+
+
+
+
+
