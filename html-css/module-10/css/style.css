@@ -21,7 +21,7 @@ html {
       rgba(252, 227, 138, 0.8) 0%,
       rgba(243, 129, 129, 0.8) 100%
     ),
-    url(/img/eagle.png);
+    url(/img/eagle-min.png);
   display: block;
   width: 100%;
   min-height: 1000px;
@@ -150,15 +150,6 @@ html {
   width: 60px;
   height: 3px;
 }
-/* .title-serices::after {
-  content: "";
-  background-image: url(/svg/line.svg);
-  color: rgb(243, 129, 129);
-  width: 60px;
-  height: 3px;
-  display: inline-block;
-  margin-left: calc((1201px / 2) - 30px / 2);
-} */
 
 .title-text--section {
   font-size: 24px;
@@ -175,7 +166,8 @@ html {
 .list-services {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 50px;
+  grid-column-gap: 30px;
+  grid-row-gap: 90px;
   margin-top: 60px;
   margin-bottom: 90px;
   }
@@ -205,8 +197,109 @@ html {
     font-size: 14px;
   }
 
+ 
 .container-cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 30px;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 380px;
+    height: 470px;
+    background-color: #95e1d3;
+    z-index: 10;
+}
+
+.card-top {
+  position: absolute;
+  background-image: linear-gradient(0deg, hsl(47, 95%, 76%) 0%, #f38181 100%);
+  width: 380px;
+  height: 470px;
+  transition: transform 0.3s linear;
+  cursor: pointer;
+  opacity: 0;
+  z-index: 30;
+}
+
+.card-img {
+  position: absolute;
+  width: 380px;
+  height: 470px;
+  z-index: 20;
+  transition: transform 0.2s linear;
+}
+
+.overlay-btn {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  z-index: 40;
+}
+
+.btn-icon {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2px;
+  background-color: #fce38a;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s linear;
+}
+
+
+.card:hover .img {
+  transform: translateX(-12px) translateY(-12px);
+}
+
+.card:hover .card-top {
+  transform: translateX(-12px) translateY(-12px);
+  opacity: 0.8;
+}
+
+.card:hover .btn-icon {
+  opacity: 1;
+  z-index: 50;
+}
+
+.overlay-btn {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  z-index: 40;
+}
+
+.btn-icon {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2px;
+  background-color: #fce38a;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s linear;
+}
+
+.card:hover .overlay-btn {
+  position: absolute;
+  opacity: 1;
+  z-index: 60;
+}
+
+.btn-icon:hover {
+  background-color: #95e1d3;
+  transition: background-color 0.3s linear;
 }
