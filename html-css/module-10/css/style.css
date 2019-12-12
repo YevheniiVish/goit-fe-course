@@ -115,8 +115,10 @@ html {
 
 .link-nav--item:hover,
 .link-nav--item:focus {
-  color: #fce38a;
-  border-bottom: 2px solid currentColor;
+ color: #fce38a;
+ padding-bottom: 10px;
+ border-bottom: 2px solid currentColor;
+ 
 }
 
 .btn-header {
@@ -163,6 +165,13 @@ html {
   margin-bottom: 38px;
 }
 
+.text-description {
+  font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    }
+
 .list-services {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -195,6 +204,14 @@ html {
     text-transform: uppercase;
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
+  }
+
+  .text-description--team {
+    text-align: center;
+    margin-top: 46px;
+  margin-bottom: 94px;
+  padding-left: 128px;
+  padding-right: 118px;
   }
 
  
@@ -234,7 +251,7 @@ html {
   transition: transform 0.2s linear;
 }
 
-.overlay-btn {
+.card-btn {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -243,7 +260,7 @@ html {
   z-index: 40;
 }
 
-.btn-icon {
+.card-btn--icon {
   display: flex;
   width: 50px;
   height: 50px;
@@ -257,7 +274,7 @@ html {
 }
 
 
-.card:hover .img {
+.card:hover .card-img--item {
   transform: translateX(-12px) translateY(-12px);
 }
 
@@ -266,21 +283,12 @@ html {
   opacity: 0.8;
 }
 
-.card:hover .btn-icon {
+.card:hover .card-btn--icon {
   opacity: 1;
   z-index: 50;
 }
 
-.overlay-btn {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  opacity: 0;
-  z-index: 40;
-}
-
-.btn-icon {
+.card-btn--icon {
   display: flex;
   width: 50px;
   height: 50px;
@@ -293,13 +301,15 @@ html {
   transition: background-color 0.3s linear;
 }
 
-.card:hover .overlay-btn {
+.card:hover .card-btn {
   position: absolute;
   opacity: 1;
   z-index: 60;
 }
 
-.btn-icon:hover {
-  background-color: #95e1d3;
+.card-btn-icon:hover {
+  background-color: #f38181;
   transition: background-color 0.3s linear;
 }
+
+

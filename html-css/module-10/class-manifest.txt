@@ -68,7 +68,29 @@ list-item--digital
 
 text-name--item
 
+text-description
 
+text-description--item
+
+text-description--team
+
+container-cards
+
+card
+
+card-img
+
+card-img--item
+
+card-top
+
+card-btn
+
+card-btn--icon
+
+link-btn
+
+link-btn--svg
 
 
 
