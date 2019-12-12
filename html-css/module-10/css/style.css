@@ -176,15 +176,37 @@ html {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 50px;
+  margin-top: 60px;
+  margin-bottom: 90px;
   }
 
   .list-item--service {
     display: grid;
     grid-template-columns: 1fr 3fr;
-
+    grid-template-rows: 40px 60px;
   }
   
-  .list-item--service .service-item-description:nth-child(3) {
+  .list-item--service .text-description--item:nth-child(3) {
     grid-column: 2 / 3;
-
   }
+
+  .link-svg--service {
+    background-size: cover;
+    background-position: center;
+    fill: #95e1d3;
+    display: inline-block;
+    width: auto;
+    height: auto;
+  }
+
+  .text-name--item {
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+  }
+
+.container-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 30px;
+}

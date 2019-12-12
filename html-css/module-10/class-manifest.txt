@@ -62,7 +62,7 @@ list-item--creat
 
 list-item--seo
 
-list-item--css_html
+list-item--html
 
 list-item--digital
 
