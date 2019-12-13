@@ -343,10 +343,13 @@ height: 22px;
   transition: background-color 0.3s linear;
 }
 
-.card-btn-icon, .link-btn:hover {
-  fill: white;
-  background-color: #fce38a;
+.card-btn--icon:hover .link-btn,
+  .card-btn--icon:focus .link-btn {
+   fill: #ffff;
   }
 
-
+  .card-btn--icon:hover,
+  .card-btn--icon:focus {
+    background-color: #f38181;
+     }
 
