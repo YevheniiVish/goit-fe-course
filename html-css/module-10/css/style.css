@@ -172,6 +172,8 @@ html {
     line-height: 24px;
     }
 
+    
+
 .list-services {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -198,12 +200,18 @@ html {
     display: inline-block;
     width: auto;
     height: auto;
+    margin-left: 30px;
   }
 
   .text-name--item {
     text-transform: uppercase;
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
+    margin: 0;
+  }
+
+  .text-description--item {
+    margin: 0;
   }
 
   .text-description--team {
@@ -273,6 +281,29 @@ html {
   transition: background-color 0.3s linear;
 }
 
+.link-btn {
+  fill: #f38181;
+}
+
+.link-btn--facebook {
+  width: 13px;
+  height: 26px;
+  }
+
+  .link-btn--twitter {
+width: 26px;
+height: 22px;
+  }
+
+  .link-btn--pinterest {
+    width: 21px;
+    height: 26px;
+      }
+
+  .link-btn--instagram {
+     width: 26px;
+     height: 26px;
+     }
 
 .card:hover .card-img--item {
   transform: translateX(-12px) translateY(-12px);
@@ -311,5 +342,11 @@ html {
   background-color: #f38181;
   transition: background-color 0.3s linear;
 }
+
+.card-btn-icon, .link-btn:hover {
+  fill: white;
+  background-color: #fce38a;
+  }
+
 
 
