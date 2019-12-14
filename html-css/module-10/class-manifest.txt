@@ -92,9 +92,11 @@ link-btn
 
 link-btn--svg
 
+link-btn--facebook
 
+link-btn--twitter
 
+link-btn--pinterest
 
-
-
+link-btn--instagram
 

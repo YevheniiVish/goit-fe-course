@@ -353,3 +353,73 @@ height: 22px;
     background-color: #f38181;
      }
 
+/* ------------footer----------- */
+footer {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-inf {
+  min-height: 62px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-top: 85px;
+}
+
+.footer-inf--text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+}
+
+.ftr-txt-inf {
+  color: #333333;
+  font-weight: 500;
+}
+
+.form-cont {
+  min-width: 380px;
+  min-height: 40px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.ftr-span--text {
+  color: #f6a1a1;
+}
+
+.btn-form {
+  display: inline-block;
+  width: 150px;
+  height: 40px;
+  color: white;
+  background: #95e1d3;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 16px;
+  text-align: center;
+  opacity: 1;
+  border: none;
+  transition: opacity 0.3s linear;
+}
+
+.form-btn:hover .btn-form {
+  cursor: pointer;
+  background-color: #1ec9a9;
+}
+
+.input-email {
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  width: 230px;
+  height: 40px;
+  font-size: 15px;
+}
