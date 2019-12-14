@@ -100,3 +100,20 @@ link-btn--pinterest
 
 link-btn--instagram
 
+wrapper-text
+
+card-text
+
+card-text--name
+
+card-text--occupation
+
+footer
+
+footer-inf
+
+footer-inf--text
+
+form-btn
+
+
