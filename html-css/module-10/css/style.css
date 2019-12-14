@@ -353,6 +353,32 @@ height: 22px;
     background-color: #f38181;
      }
 
+
+     .wrapper-text {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 28px;
+    }
+    
+    .card-text--name {
+      font-family: "Montserrat", sans-serif;
+      font-size: 14px;
+      line-height: 16px;
+      font-weight: 500;
+      text-transform: uppercase;
+      color: rgb(51, 51, 51);
+    }
+    
+    .card-text--occupation {
+      font-family: "Roboto", sans-serif;
+      font-size: 15px;
+      line-height: 24px;
+      font-weight: lighter;
+      font-style: italic;
+      color: rgb(153, 153, 153);
+    }
+
+
 /* ------------footer----------- */
 footer {
   margin: 0;
