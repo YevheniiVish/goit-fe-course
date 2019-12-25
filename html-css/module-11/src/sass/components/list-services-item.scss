@@ -1,0 +1,25 @@
+.list-item--service {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 40px 60px;
+
+  .link-svg--service {
+    background-size: cover;
+    background-position: center;
+    fill: #95e1d3;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin-left: 30px;
+  }
+
+  .text-name--item {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin: 0;
+  }
+  .text-description--item:nth-child(3) {
+    grid-column: 2 / 3;
+  }
+}

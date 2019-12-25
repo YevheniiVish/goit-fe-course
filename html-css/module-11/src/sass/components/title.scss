@@ -1,0 +1,15 @@
+.title {
+  @include flex-center('all');
+  flex-direction: column;
+  text-align: center;
+
+  .title-text {
+    font-family: $thirdary-font-stack;
+  }
+
+  .title-name {
+    font-family: $main-font-stack;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}

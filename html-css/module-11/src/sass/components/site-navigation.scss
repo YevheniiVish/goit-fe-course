@@ -1,0 +1,20 @@
+.list-nav {
+  @include flex-center('spbetween');
+  width: 52%;
+  height: auto;
+  font-family: $main-font-stack;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+
+  .link-nav--item {
+    color: $hdr-color;
+
+    &:hover,
+    &:focus {
+      color: $hvr-color;
+      padding-bottom: 10px;
+      border-bottom: 2px solid currentColor;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.btn-header {
+  @include flex-center('all');
+  font-size: 14px;
+  font-family: $main-font-stack;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+
+  .btn-header--item {
+    width: 164px;
+    height: 44px;
+    color: $hdr-color;
+    border-color: $hdr-color;
+    background-color: rgba(0, 0, 0, 0);
+    text-transform: uppercase;
+    border-style: solid;
+    border-width: 3px;
+  }
+}

@@ -1,0 +1,9 @@
+.list-services {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 90px;
+  margin-top: 60px;
+  margin-bottom: 90px;
+
+}

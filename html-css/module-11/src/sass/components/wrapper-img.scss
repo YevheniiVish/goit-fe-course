@@ -1,0 +1,15 @@
+.wrapper-img {
+  background: '$bg-color-wrapper';
+  background-image: -webkit-linear-gradient(
+      90deg,
+      rgba(252, 227, 138, 0.8) 0%,
+      rgba(243, 129, 129, 0.8) 100%
+    ),
+    url(../../images/eagle-min.png);
+  display: block;
+  width: 100%;
+  min-height: 1000px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

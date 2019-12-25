@@ -1,0 +1,48 @@
+/*
+ * Все паршалы импортировать в этот файл
+ */
+@import 'helpers/variables';
+
+@import 'helpers/mixin.scss';
+
+@import 'normalize';
+
+@import 'base';
+
+// ------components-------
+
+@import 'components/container';
+
+@import 'components/list';
+
+@import 'components/link';
+
+@import 'components/page-nav';
+
+@import 'components/wrapper-img';
+
+@import 'components/logo';
+
+@import 'components/site-navigation';
+
+@import 'components/title';
+
+@import 'components/btn-header';
+
+@import 'components/svg-nav';
+
+@import 'components/title-text-hdr';
+
+@import 'components/title-name-hdr';
+
+@import 'components/section';
+
+@import 'components/title-text-section';
+
+@import 'components/title-name-section';
+
+@import 'components/list-services';
+
+@import 'components/title-icon';
+
+@import 'components/list-services-item';
