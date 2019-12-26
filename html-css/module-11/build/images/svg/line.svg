@@ -1,6 +1,1 @@
-<svg 
- xmlns="http://www.w3.org/2000/svg"
- width="60px" height="3px">
-<path fill-rule="evenodd"  fill="rgb(243, 129, 129)"
- d="M0.000,-0.000 L60.000,-0.000 L60.000,3.000 L0.000,3.000 L0.000,-0.000 Z"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="3"><path fill-rule="evenodd" fill="#F38181" d="M0 0h60v3H0V0z"/></svg>
