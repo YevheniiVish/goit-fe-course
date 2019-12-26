@@ -1,0 +1,31 @@
+.card-btn {
+  @include flex-center('all');
+  position: absolute;
+  opacity: 0;
+  z-index: 40;
+
+  .card-btn--icon {
+    @include flex-center('all');
+    display: flex;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2px;
+    background-color: #fce38a;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s linear;
+
+    &:hover,
+    &:focus {
+      background-color: #f38181;
+      transition: background-color 0.2s linear;
+    }
+
+    &:hover .link-btn,
+    &:focus .link-btn {
+      fill: $hdr-color;
+    }
+  }
+}

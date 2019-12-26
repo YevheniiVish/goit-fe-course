@@ -1,0 +1,23 @@
+footer {
+  margin: $margin-zero;
+  padding: $padding-zero;
+
+  .footer-inf {
+    @include flex-center('spbetween');
+    min-height: 62px;
+    margin: 0 auto;
+    flex-wrap: nowrap;
+    margin-top: 85px;
+
+    &--text {
+      font-family: $main-font-stack;
+      font-size: 14px;
+      line-height: 16px;
+      text-align: center;
+
+      .ftr-span--text {
+        color: #f6a1a1;
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.wrapper-text {
+  @include flex-center('sparound');
+  margin-top: 28px;
+
+  .card-text {
+    text-align: center;
+
+    &--name {
+      font-family: $main-font-stack;
+      font-size: 14px;
+      line-height: 16px;
+      font-weight: 500;
+      text-transform: uppercase;
+      color: #333333;
+    }
+
+    &--occupation {
+      font-family: $secondary-font-stack;
+      font-size: 15px;
+      line-height: 24px;
+      font-weight: lighter;
+      font-style: italic;
+      color: #999999;
+    }
+  }
+}

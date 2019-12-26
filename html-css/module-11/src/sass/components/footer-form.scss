@@ -1,0 +1,36 @@
+.form-cont {
+  min-width: 380px;
+  min-height: 40px;
+  @include flex-center('all');
+  flex-wrap: nowrap;
+
+  p > .input-email {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    width: 230px;
+    height: 40px;
+    font-size: 15px;
+  }
+
+  .btn-form {
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    color: $hvr-color;
+    background: $bg-color-card;
+    text-transform: uppercase;
+    font-family: $main-font-stack;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 16px;
+    text-align: center;
+    opacity: 1;
+    border: none;
+    transition: opacity 0.3s linear;
+
+    &:hover {
+      cursor: pointer;
+      background-color: #1ec9a9;
+    }
+  }
+}
